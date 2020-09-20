@@ -188,19 +188,19 @@ function myStopFunction(){
 
 
 function coll(){
-var colors = ["red","blue","green"];
+var score = [81,66,62,33,23];
 localStorage.setItem("my_colors", JSON.stringify(colors)); //store colors
 var storedColors = JSON.parse(localStorage.getItem("my_colors"));
 
- 	document.getElementById(101).innerHTML=storedColors[0];
+ 	document.getElementById(101).innerHTML=score[0];
 
- 	document.getElementById(102).innerHTML=storedColors[1];
+ 	document.getElementById(102).innerHTML=score[1];
 
- 	document.getElementById(103).innerHTML=storedColors[2];
+ 	document.getElementById(103).innerHTML=score[2];
 
- 	document.getElementById(104).innerHTML=storedColors[2];
+ 	document.getElementById(104).innerHTML=score[3];
 
- 	document.getElementById(105).innerHTML=storedColors[1];
+ 	document.getElementById(105).innerHTML=score[4];
 }
 
 function restart(){
